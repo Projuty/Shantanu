@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Neonderthaw&family=The+Nautigal&family=Ubuntu:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:#283234e7;
+}
+.card{
+  width:300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  
+  
+}
+.pic{
+  width: 100%;
+  
+  
+}
+.info{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: #95a8ad;
+  
+}
+h3,p{
+  text-align: center;
+  font-family: 'Dongle', sans-serif;font-family: 'Neonderthaw', cursive;font-family: 'The Nautigal', cursive;font-family: 'Ubuntu', sans-serif;
+}
+.link{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.container{
+  border: 3px solid orange;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 5px white;
+
+  
+}
+.container:hover{
+  box-shadow: 5px 5px 10px white;
+}
+a{
+  box-sizing: inline;
+}

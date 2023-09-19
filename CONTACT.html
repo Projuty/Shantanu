@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+
+  <title>Contact</title>
+  <style type="text/css">
+    
+    h1,h3,p{
+      text-align: center;
+      color:white;
+      font-family: Courier;
+      font-weight: bold;
+    }
+    label{
+      color: #fff;
+      margin-left: 20px;
+      font-family: Courier;
+    }
+    body{
+      background-image: url('PICS/BACK.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+    #email{
+      width: 200px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    #name{
+      width:200px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    ol{
+      list-style: none;
+    }
+    .checkbox{
+      margin-left: 10px;
+    }
+   
+    #rgs{
+      padding: 10px;
+      border: 1px solid blue;
+      box-shadow: 2px 3px 4px blue;
+      font-size: 15px;
+      margin-right: 10px;
+      border-radius: 30%;
+    }
+     #rgs:hover{
+      padding:10px;
+      color: orange;
+      background: blue;
+      border: 1px solid yellow;
+      box-shadow: 2px 3px 4px white;
+    }
+    #reset{
+      padding: 10px;
+      font-size: 15px;
+      box-shadow: 2px 3px 4px blue;
+      margin-left: 10px;
+      border-radius: 30%;
+    }
+    #reset:hover{
+      padding:10px;
+      color: orange;
+      background: blue;
+      border: 1px solid yellow;
+      box-shadow: 2px 3px 4px white;
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+  <h1>CONTACT PAGE</h1>
+  <hr>
+  <form>
+ <legend>
+  <ol>
+    
+  <p>  NOTHING WILL BE SHARED FROM HERE TO ANYONE YOUR INFORMATIONS ARE SECURED.</p>
+  <li><label for="email">EMAIL : </label><input type="email" id="email" name="email" placeholder="ENTER YOUR EMAIL"></li>
+  <li><label for="NAME">NAME : </label><input type="text" name="NAME" id="name" placeholder="ENTER YOUR NAME" required></li><br>
+  <li><h3>WHY ARE YOU CONTACTING ME?</h3><br>
+    <label>HIRING</label><input type="checkbox" value="1" class="checkbox"><br>
+  
+  
+ <label for=""> DISCUSS</label><input name="rel" type="checkbox" value="2" class="checkbox"><br>
+ 
+ <label for="Others"> OTHERS</label><input name="rel" type="checkbox" name="others" value="3" class="checkbox">
+  </li><br>
+<li><label>DESCRIBE :</label><br>
+<textarea cols="28" rows="10" placeholder="CLARIFY WHY ARE YOU CONTACTING ME ."></textarea></li>
+  </ol>
+  <input type="submit" name="reset" id="rgs" value="submit" />
+  <input type="reset" name="reset" id="reset" value="reset"/>
+  </legend>
+  </form>
+</body>
+
+
+</html>

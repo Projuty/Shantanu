@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Neonderthaw&family=The+Nautigal&display=swap');
+*{ padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav{
+  background:#292d2dd6;
+  max-width: 70000px;
+  height: 50px;
+}
+.main{
+  background: #c7e1e8;
+  border: 3px solid black;
+  
+}
+.foot{
+  background: rgba(14,19,28,0.965);
+  height: 16vh;
+}
+.Pic1{
+  height: 100%;
+  float:left;
+}
+h1,h3,.p{
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+}
+h1{
+  margin-top: 20px;
+}
+span{
+  font-size: 20px;
+  font-weight: bold;
+}
+.foot ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.foot ul li a ion-icon{
+  margin:16px;
+
+ max-width: 100000px;
+ min-width: 2rem;
+}
+.ray{
+  width: 100%;
+  height:70%;
+}
+.icn1:hover{
+  color: red;
+  box-shadow: 2px 3px red;
+}
+.icn2:hover{
+  color: #e752ba;
+  box-shadow: 2px 3px #e752ba;
+}
+.icn3:hover{
+  color: white;
+  box-shadow: 2px 3px #fff;
+}
+.icn4:hover{
+  color: rgba(9,80,248,0.965);
+  box-shadow: 2px 3px  rgba(42,165,243,0.96);
+}
+.icn5:hover{
+  color:rgb(76,162,222);
+  box-shadow: 2px 3px rgb(76,162,222);
+}
+.icn1{
+  color: red;
+}
+.icn2{
+  color:#e752ba;
+}
+.icn3{
+  color: white;
+}
+.icn4{
+  color: rgba(9,80,248,0.965);
+}
+.icn5{
+  color:rgb(76,162,222);
+}
+h4{
+  
+  position:absolute;
+  top: 25px;
+  left:60px;
+  color: #fff;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Neonderthaw', cursive;
+  font-family: 'The Nautigal', cursive;
+  
+}
+li{
+  display: inline;
+  list-style: none;
+}
+.n{
+  display:float ;
+  float:right ;
+  margin: 5px;
+  text-decoration: none;
+  font-weight:bold;
+  color: white;
+  text-shadow: 1.5px 2px 3px blue;
+  
+}
+
